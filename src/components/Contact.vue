@@ -2,25 +2,28 @@
   <section id="contact" class="contact-section">
     <div class="contact-container">
 
-      <div class="contact-heading">
+      <!-- HEADER -->
+      <div class="section-heading">
         <span>GET IN TOUCH</span>
 
         <h2>
           Let's build something
-          <strong>great together.</strong>
+          <span>great together.</span>
         </h2>
 
         <p>
-          Have a project, opportunity or idea you'd like to discuss?
-          I'd love to hear from you.
+          Have a project, business idea or opportunity you'd like
+          to discuss? Feel free to reach out.
         </p>
       </div>
 
+      <!-- CONTACT GRID -->
       <div class="contact-grid">
 
         <!-- CONTACT INFO -->
         <div class="contact-info">
 
+          <!-- EMAIL -->
           <a
             href="mailto:mufasirdevmaster@gmail.com"
             class="contact-card"
@@ -31,12 +34,13 @@
 
             <div>
               <span>Email</span>
-              <strong>muhsinadebayo366@gmail.com</strong>
+              <h3>mufasirdevmaster@gmail.com</h3>
             </div>
 
-            <span class="arrow">↗</span>
+            <strong>↗</strong>
           </a>
 
+          <!-- WHATSAPP -->
           <a
             href="https://wa.me/2348093963715"
             target="_blank"
@@ -49,44 +53,50 @@
 
             <div>
               <span>WhatsApp</span>
-              <strong>Let's chat on WhatsApp</strong>
+              <h3>Let's chat on WhatsApp</h3>
             </div>
 
-            <span class="arrow">↗</span>
+            <strong>↗</strong>
           </a>
 
-          <div class="contact-card">
+          <!-- LOCATION -->
+          <div class="contact-card location-card">
             <div class="contact-icon">
               N
             </div>
 
             <div>
               <span>Based in</span>
-              <strong>Nigeria</strong>
+              <h3>Nigeria</h3>
             </div>
           </div>
 
         </div>
 
-        <!-- MESSAGE CARD -->
-        <div class="message-card">
-          <div class="message-number">01</div>
+        <!-- RIGHT CARD -->
+        <div class="contact-cta">
 
-          <h3>Have an idea?</h3>
+          <div class="cta-number">
+            01
+          </div>
+
+          <h3>
+            Have an idea?
+          </h3>
 
           <p>
-            Whether it's a website, financial technology project,
-            collaboration or something completely new, let's talk
-            about it.
+            Whether you need a website, web application, fintech
+            interface or a digital product, I'd love to hear about it.
           </p>
 
           <a
-            href="mailto:mufasirdevmaster@gmail.com"
-            class="message-button"
+            href="mailto:mufasirdevmaster@gmail.com?subject=Project%20Inquiry"
+            class="contact-button"
           >
-            Send Me a Message
-            <span>→</span>
+            Start a Conversation
+            <span>↗</span>
           </a>
+
         </div>
 
       </div>
@@ -97,7 +107,7 @@
 
 <style scoped>
 .contact-section {
-  padding: 130px 7%;
+  padding: 120px 7%;
   background: #070d1f;
 }
 
@@ -106,38 +116,42 @@
   margin: 0 auto;
 }
 
-/* HEADING */
+/* =========================
+   SECTION HEADER
+========================= */
 
-.contact-heading {
-  max-width: 800px;
+.section-heading {
+  max-width: 850px;
   margin-bottom: 65px;
 }
 
-.contact-heading > span {
+.section-heading > span {
   color: #3b82f6;
-
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 3px;
 }
 
-.contact-heading h2 {
-  margin: 15px 0 20px;
+.section-heading h2 {
+  margin-top: 15px;
 
   color: #ffffff;
 
-  font-size: clamp(40px, 5.5vw, 68px);
-  line-height: 1.05;
+  font-size: clamp(36px, 5vw, 58px);
+  line-height: 1.1;
+
   font-weight: 900;
+  letter-spacing: -1.5px;
 }
 
-.contact-heading h2 strong {
-  display: block;
+.section-heading h2 span {
   color: #3b82f6;
 }
 
-.contact-heading p {
+.section-heading p {
   max-width: 650px;
+
+  margin-top: 20px;
 
   color: #94a3b8;
 
@@ -145,49 +159,69 @@
   line-height: 1.8;
 }
 
-/* GRID */
+/* =========================
+   CONTACT GRID
+========================= */
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 0.9fr;
+
+  grid-template-columns: 1fr 0.85fr;
+
   gap: 25px;
+
+  align-items: stretch;
 }
 
-/* CONTACT INFO */
+/* =========================
+   CONTACT INFO
+========================= */
 
 .contact-info {
   display: flex;
+
   flex-direction: column;
+
   gap: 15px;
 }
 
+/* =========================
+   CONTACT CARD
+========================= */
+
 .contact-card {
-  min-height: 95px;
-  padding: 20px 22px;
+  min-height: 105px;
+
+  padding: 22px 25px;
 
   display: flex;
+
   align-items: center;
-  gap: 17px;
 
-  position: relative;
-
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 15px;
-
-  background: rgba(255, 255, 255, 0.025);
+  gap: 18px;
 
   text-decoration: none;
+
+  border: 1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.025);
 
   transition: 0.3s ease;
 }
 
-a.contact-card:hover {
-  transform: translateX(5px);
+.contact-card:hover {
+  transform: translateX(6px);
 
   border-color: rgba(59, 130, 246, 0.4);
 
-  background: rgba(37, 99, 235, 0.05);
+  background: rgba(37, 99, 235, 0.06);
 }
+
+/* =========================
+   ICON
+========================= */
 
 .contact-icon {
   width: 50px;
@@ -196,176 +230,272 @@ a.contact-card:hover {
   flex-shrink: 0;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
-  border-radius: 12px;
+  border-radius: 13px;
 
   color: #3b82f6;
+
   background: rgba(37, 99, 235, 0.1);
 
-  font-size: 18px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+
+  font-size: 19px;
+
   font-weight: 900;
 }
 
+/* =========================
+   CARD TEXT
+========================= */
+
 .contact-card div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  flex: 1;
 }
 
-.contact-card span:not(.arrow) {
+.contact-card span {
+  display: block;
+
   color: #64748b;
 
   font-size: 11px;
+
   font-weight: 800;
-  letter-spacing: 1px;
+
+  letter-spacing: 1.5px;
+
   text-transform: uppercase;
 }
 
-.contact-card strong {
+.contact-card h3 {
+  margin-top: 6px;
+
   color: #e2e8f0;
 
-  font-size: 14px;
+  font-size: 15px;
+
   font-weight: 700;
+
+  word-break: break-word;
 }
 
-.arrow {
-  margin-left: auto;
-
+.contact-card > strong {
   color: #3b82f6;
 
-  font-size: 20px;
+  font-size: 19px;
+
+  transition: 0.3s ease;
 }
 
-/* MESSAGE CARD */
+.contact-card:hover > strong {
+  transform: translate(3px, -3px);
+}
 
-.message-card {
-  position: relative;
+/* LOCATION */
 
-  min-height: 300px;
+.location-card {
+  cursor: default;
+}
+
+.location-card:hover {
+  transform: none;
+}
+
+/* =========================
+   CTA CARD
+========================= */
+
+.contact-cta {
   padding: 40px;
 
-  overflow: hidden;
+  min-height: 100%;
 
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
 
-  border: 1px solid rgba(59, 130, 246, 0.2);
   border-radius: 20px;
+
+  border: 1px solid rgba(59, 130, 246, 0.2);
 
   background:
     linear-gradient(
       145deg,
-      rgba(37, 99, 235, 0.15),
+      rgba(37, 99, 235, 0.12),
       rgba(255, 255, 255, 0.025)
     );
+
+  position: relative;
+
+  overflow: hidden;
 }
 
-.message-card::after {
-  content: "";
+.contact-cta::before {
+  content: '';
 
   position: absolute;
 
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
 
   right: -100px;
-  bottom: -100px;
+  bottom: -130px;
 
   border-radius: 50%;
 
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(37, 99, 235, 0.15);
 
-  filter: blur(10px);
+  filter: blur(40px);
 }
 
-.message-number {
-  position: absolute;
+/* =========================
+   CTA CONTENT
+========================= */
 
-  top: 25px;
-  right: 30px;
-
-  color: rgba(59, 130, 246, 0.5);
+.cta-number {
+  color: #3b82f6;
 
   font-size: 12px;
+
   font-weight: 900;
+
+  letter-spacing: 2px;
 }
 
-.message-card h3 {
-  margin: 0 0 15px;
+.contact-cta h3 {
+  margin-top: 20px;
 
   color: #ffffff;
 
-  font-size: 30px;
+  font-size: 34px;
+
   font-weight: 900;
+
+  position: relative;
 }
 
-.message-card p {
-  max-width: 470px;
+.contact-cta p {
+  max-width: 450px;
+
+  margin-top: 15px;
 
   color: #94a3b8;
 
   font-size: 15px;
+
   line-height: 1.8;
+
+  position: relative;
 }
 
-.message-button {
+/* =========================
+   CTA BUTTON
+========================= */
+
+.contact-button {
   width: fit-content;
 
-  margin-top: 25px;
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 30px;
+
   padding: 14px 20px;
 
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-
   color: #ffffff;
+
   background: #2563eb;
 
   border-radius: 9px;
 
   text-decoration: none;
 
-  font-size: 13px;
+  font-size: 14px;
+
   font-weight: 800;
+
+  position: relative;
 
   transition: 0.3s ease;
 }
 
-.message-button:hover {
+.contact-button:hover {
   background: #1d4ed8;
+
   transform: translateY(-3px);
 }
 
-.message-button span {
+.contact-button span {
   font-size: 18px;
+
+  transition: 0.3s ease;
 }
 
-/* RESPONSIVE */
+.contact-button:hover span {
+  transform: translate(3px, -3px);
+}
+
+/* =========================
+   TABLET
+========================= */
 
 @media (max-width: 850px) {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+
+  .contact-cta {
+    min-height: 320px;
+  }
 }
 
-@media (max-width: 600px) {
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 550px) {
   .contact-section {
     padding: 90px 5%;
   }
 
   .contact-card {
-    padding: 17px;
+    padding: 18px;
+
+    gap: 13px;
   }
 
-  .contact-card strong {
+  .contact-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contact-card h3 {
     font-size: 13px;
   }
 
-  .message-card {
-    padding: 30px;
+  .contact-cta {
+    padding: 28px;
+
+    min-height: 300px;
+  }
+
+  .contact-cta h3 {
+    font-size: 29px;
+  }
+
+  .contact-button {
+    width: 100%;
+
+    justify-content: center;
+
+    text-align: center;
   }
 }
 </style>

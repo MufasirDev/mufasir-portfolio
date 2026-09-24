@@ -1,64 +1,136 @@
 <template>
   <footer class="footer">
+
     <div class="footer-container">
 
+      <!-- BRAND -->
       <div class="footer-brand">
+
         <a href="#home" class="footer-logo">
           <span>M</span>ufasir
         </a>
 
         <p>
-          Frontend Developer & Banking and Finance Student.
+          Frontend Developer • Fintech Builder •
+          Banking & Finance Student
         </p>
+
       </div>
 
-      <div class="footer-links">
+      <!-- FOOTER NAVIGATION -->
+      <div class="footer-navigation">
+
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Journey</a>
         <a href="#contact">Contact</a>
+
       </div>
 
-      <div class="footer-bottom">
-        <p>
-          © 2026 Mufasir. All rights reserved.
-        </p>
+      <!-- SOCIAL LINKS -->
+      <div class="footer-social">
 
-        <a href="#home">
-          Back to top ↑
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          GitHub
         </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="https://wa.me/2348093963715"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
+          WhatsApp
+        </a>
+
       </div>
 
     </div>
+
+
+    <!-- DIVIDER -->
+    <div class="footer-divider"></div>
+
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+
+      <p>
+        © {{ new Date().getFullYear() }}
+        Adebayo Muh'sin Adebola.
+        All rights reserved.
+      </p>
+
+      <a href="#home" class="back-top">
+        Back to top ↑
+      </a>
+
+    </div>
+
   </footer>
 </template>
 
+
 <style scoped>
+
 .footer {
+  width: 100%;
   padding: 55px 7% 25px;
-  background: #050816;
+
+  background: #030611;
+
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
+
+
+/* =================================
+   MAIN FOOTER
+================================= */
 
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-}
 
-/* BRAND */
-
-.footer-brand {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+
+  gap: 40px;
+}
+
+
+/* =================================
+   BRAND
+================================= */
+
+.footer-brand {
+  max-width: 300px;
 }
 
 .footer-logo {
+  display: inline-block;
+
   color: #ffffff;
+
   text-decoration: none;
 
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 900;
 }
 
@@ -67,48 +139,108 @@
 }
 
 .footer-brand p {
-  margin: 0;
+  margin-top: 10px;
 
   color: #64748b;
 
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
-/* LINKS */
 
-.footer-links {
+/* =================================
+   NAVIGATION
+================================= */
+
+.footer-navigation {
   display: flex;
-  gap: 28px;
 
-  margin-top: 35px;
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 25px;
+
+  flex-wrap: wrap;
 }
 
-.footer-links a {
+.footer-navigation a {
   color: #94a3b8;
 
   text-decoration: none;
 
-  font-size: 13px;
+  font-size: 12px;
+
   font-weight: 700;
 
   transition: 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-navigation a:hover {
   color: #3b82f6;
 }
 
-/* BOTTOM */
 
-.footer-bottom {
-  margin-top: 45px;
-  padding-top: 22px;
+/* =================================
+   SOCIAL
+================================= */
 
+.footer-social {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
 
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 18px;
+}
+
+.footer-social a {
+  color: #94a3b8;
+
+  text-decoration: none;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #3b82f6;
+}
+
+
+/* =================================
+   DIVIDER
+================================= */
+
+.footer-divider {
+  max-width: 1200px;
+
+  height: 1px;
+
+  margin: 40px auto 20px;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
+
+/* =================================
+   BOTTOM
+================================= */
+
+.footer-bottom {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
 }
 
 .footer-bottom p {
@@ -116,45 +248,97 @@
 
   color: #475569;
 
-  font-size: 12px;
+  font-size: 11px;
 }
 
-.footer-bottom a {
+.back-top {
   color: #64748b;
 
   text-decoration: none;
 
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+
+  font-weight: 800;
 
   transition: 0.3s ease;
 }
 
-.footer-bottom a:hover {
+.back-top:hover {
   color: #3b82f6;
 }
 
-/* RESPONSIVE */
 
-@media (max-width: 650px) {
-  .footer {
-    padding: 45px 5% 22px;
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 900px) {
+
+  .footer-container {
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    text-align: center;
   }
 
   .footer-brand {
-    align-items: flex-start;
-    flex-direction: column;
+    width: 100%;
+
+    max-width: 500px;
   }
 
-  .footer-links {
-    flex-wrap: wrap;
-    gap: 18px;
+  .footer-navigation {
+    width: 100%;
+  }
+
+  .footer-social {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 550px) {
+
+  .footer {
+    padding: 50px 5% 22px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+
+    gap: 25px;
+  }
+
+  .footer-navigation {
+    gap: 15px 20px;
+  }
+
+  .footer-social {
+    gap: 20px;
+  }
+
+  .footer-divider {
+    margin-top: 30px;
   }
 
   .footer-bottom {
-    align-items: flex-start;
     flex-direction: column;
-    gap: 15px;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 12px;
   }
+
 }
+
 </style>

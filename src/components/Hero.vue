@@ -1,10 +1,17 @@
+<script setup lang="ts">
+import profileImage from '../assets/profile.jpg'
+</script>
+
 <template>
   <section id="home" class="hero">
     <div class="hero-container">
 
       <!-- LEFT SIDE -->
       <div class="hero-content">
-        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <p class="eyebrow">
+          FRONTEND DEVELOPER • FINTECH BUILDER
+        </p>
 
         <h1>
           Hi, I'm
@@ -12,11 +19,15 @@
           Adebola
         </h1>
 
-        <h2>Frontend Developer & Banking and Finance Student</h2>
+        <h2>
+          Frontend Developer & Banking and Finance Student
+        </h2>
 
         <p class="hero-text">
           I create modern, responsive and user-friendly digital experiences
           while combining technology, creativity and financial knowledge.
+          I'm passionate about building digital products that solve
+          real-world problems.
         </p>
 
         <div class="hero-buttons">
@@ -30,10 +41,34 @@
         </div>
 
         <div class="social-links">
-          <a href="#" aria-label="GitHub">GitHub</a>
-          <a href="#" aria-label="LinkedIn">LinkedIn</a>
-          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://wa.me/2348093963715"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+          >
+            WhatsApp
+          </a>
         </div>
+
       </div>
 
       <!-- RIGHT SIDE -->
@@ -42,15 +77,15 @@
         <div class="hero-glow glow-one"></div>
         <div class="hero-glow glow-two"></div>
 
-        <!-- PROFILE PHOTO SPACE -->
+        <!-- PROFILE PHOTO -->
         <div class="profile-frame">
           <div class="profile-inner">
 
             <img
-  :src="profileImage"
-  alt="Adebayo Muh'sin Adebola"
-  class="profile-image"
-/>
+              :src="profileImage"
+              alt="Adebayo Muh'sin Adebola"
+              class="profile-image"
+            />
 
           </div>
         </div>
@@ -63,7 +98,7 @@
 
         <div class="floating-card card-bottom">
           <span>02</span>
-          <p>Banking & Finance</p>
+          <p>Fintech Builder</p>
         </div>
 
       </div>
@@ -93,7 +128,9 @@
   gap: 70px;
 }
 
-/* LEFT */
+/* =========================
+   LEFT SIDE
+========================= */
 
 .hero-content {
   max-width: 720px;
@@ -137,7 +174,9 @@
   line-height: 1.8;
 }
 
-/* BUTTONS */
+/* =========================
+   BUTTONS
+========================= */
 
 .hero-buttons {
   display: flex;
@@ -177,7 +216,9 @@
   transform: translateY(-3px);
 }
 
-/* SOCIAL */
+/* =========================
+   SOCIAL LINKS
+========================= */
 
 .social-links {
   display: flex;
@@ -197,7 +238,9 @@
   color: #3b82f6;
 }
 
-/* RIGHT SIDE */
+/* =========================
+   RIGHT SIDE
+========================= */
 
 .hero-visual {
   min-height: 560px;
@@ -208,7 +251,9 @@
   justify-content: center;
 }
 
-/* PHOTO FRAME */
+/* =========================
+   PROFILE FRAME
+========================= */
 
 .profile-frame {
   width: 390px;
@@ -248,54 +293,23 @@
   justify-content: center;
 }
 
-.profile-placeholder {
+/* =========================
+   PROFILE IMAGE
+========================= */
+
+.profile-image {
   width: 100%;
   height: 100%;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  display: block;
 
-  border: 1px dashed rgba(59, 130, 246, 0.35);
-  color: #64748b;
-
-  transform: rotate(-3deg);
+  transform: rotate(-3deg) scale(1.02);
 }
 
-.camera-icon {
-  width: 55px;
-  height: 55px;
-
-  border-radius: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #3b82f6;
-  font-size: 32px;
-  font-weight: 300;
-
-  border: 1px solid rgba(59, 130, 246, 0.35);
-
-  margin-bottom: 18px;
-}
-
-.photo-label {
-  color: #cbd5e1;
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: 2px;
-}
-
-.photo-subtitle {
-  margin-top: 8px;
-  color: #64748b;
-  font-size: 12px;
-}
-
-/* GLOW */
+/* =========================
+   GLOW
+========================= */
 
 .hero-glow {
   position: absolute;
@@ -307,7 +321,9 @@
 .glow-one {
   width: 220px;
   height: 220px;
+
   background: rgba(37, 99, 235, 0.25);
+
   top: 50px;
   right: 70px;
 }
@@ -315,12 +331,16 @@
 .glow-two {
   width: 180px;
   height: 180px;
+
   background: rgba(59, 130, 246, 0.15);
+
   bottom: 50px;
   left: 70px;
 }
 
-/* FLOATING CARDS */
+/* =========================
+   FLOATING CARDS
+========================= */
 
 .floating-card {
   position: absolute;
@@ -333,6 +353,7 @@
   gap: 12px;
 
   border: 1px solid rgba(255, 255, 255, 0.08);
+
   background: rgba(8, 15, 35, 0.88);
 
   backdrop-filter: blur(15px);
@@ -340,6 +361,8 @@
   border-radius: 12px;
 
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+
+  animation: floating 4s ease-in-out infinite;
 }
 
 .floating-card span {
@@ -363,9 +386,27 @@
 .card-bottom {
   bottom: 80px;
   left: -20px;
+  animation-delay: 1.5s;
 }
 
-/* RESPONSIVE */
+/* =========================
+   FLOATING ANIMATION
+========================= */
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
 
 @media (max-width: 1000px) {
   .hero-container {
@@ -392,9 +433,26 @@
   }
 }
 
+/* =========================
+   MOBILE
+========================= */
+
 @media (max-width: 600px) {
   .hero {
     padding: 130px 5% 60px;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 12vw, 58px);
+    letter-spacing: -1.5px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero-text {
+    font-size: 15px;
   }
 
   .profile-frame {
@@ -413,16 +471,36 @@
   .card-bottom {
     left: 0;
   }
+
+  .floating-card {
+    padding: 12px 14px;
+  }
+
+  .floating-card p {
+    font-size: 12px;
+  }
 }
-.profile-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transform: rotate(-3deg);
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 380px) {
+  .profile-frame {
+    width: 270px;
+    height: 350px;
+  }
+
+  .card-top {
+    top: 65px;
+  }
+
+  .card-bottom {
+    bottom: 55px;
+  }
+
+  .floating-card {
+    transform: scale(0.9);
+  }
 }
 </style>
-
-<script setup lang="ts">
-import profileImage from '../assets/profile.jpg'
-</script>

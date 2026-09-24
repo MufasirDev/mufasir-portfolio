@@ -2,137 +2,258 @@
   <section id="projects" class="projects-section">
     <div class="projects-container">
 
+      <!-- SECTION HEADER -->
       <div class="section-heading">
         <span>MY PROJECTS</span>
-        <h2>Things I've built with technology.</h2>
+
+        <h2>
+          Things I've built with
+          <span>technology.</span>
+        </h2>
+
         <p>
-          A selection of projects that showcase my frontend development
-          skills and interest in solving real-world problems.
+          A selection of projects I've worked on across fintech,
+          education, business and modern web development.
         </p>
       </div>
 
+      <!-- PROJECTS -->
       <div class="projects-grid">
 
-        <!-- PROJECT 1 -->
+        <!-- MUFASIRPAY -->
         <article class="project-card featured">
+
           <div class="project-top">
-            <div class="project-icon">M</div>
+            <div class="project-number">01</div>
 
             <span class="project-status">
-              Featured
+              Fintech
             </span>
           </div>
 
           <div class="project-content">
-            <span class="project-type">
-              Education Platform
-            </span>
 
-            <h3>Mufasir Devmaster Academy</h3>
+            <h3>MufasirPay</h3>
 
-            <p>
-              A modern learning platform designed to help students learn
-              frontend development through practical and structured
-              courses.
+            <p class="project-description">
+              A fintech and digital wallet platform designed to provide
+              users with a modern experience for managing wallets,
+              transfers, airtime, data, bills and transactions.
             </p>
 
-            <div class="tech-stack">
+            <div class="project-tags">
               <span>Vue.js</span>
               <span>Vite</span>
               <span>Supabase</span>
               <span>Paystack</span>
             </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <span>↗</span>
+              </a>
+            </div>
+
           </div>
 
-          <div class="project-footer">
-            <a href="#" class="project-link">
-              View Project
-              <span>→</span>
-            </a>
-          </div>
         </article>
 
-        <!-- PROJECT 2 -->
+        <!-- MUFASIR DEVMaster -->
         <article class="project-card">
-          <div class="project-top">
-            <div class="project-icon">B</div>
 
-            <span class="project-number">
-              02
+          <div class="project-top">
+            <div class="project-number">02</div>
+
+            <span class="project-status">
+              Education
             </span>
           </div>
 
           <div class="project-content">
-            <span class="project-type">
-              Fintech / Banking
-            </span>
 
-            <h3>BankScope</h3>
+            <h3>Mufasir Devmaster Academy</h3>
 
-            <p>
-              A banking interface concept focused on account management,
-              dashboards, transactions and personal financial tracking.
+            <p class="project-description">
+              A learning platform created to provide web development
+              education and digital learning experiences for students
+              interested in technology.
             </p>
 
-            <div class="tech-stack">
+            <div class="project-tags">
               <span>Vue.js</span>
               <span>Vite</span>
-              <span>JavaScript</span>
+              <span>Supabase</span>
+              <span>Paystack</span>
             </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <span>↗</span>
+              </a>
+            </div>
+
           </div>
 
-          <div class="project-footer">
-            <a href="#" class="project-link">
-              View Project
-              <span>→</span>
-            </a>
-          </div>
         </article>
 
-        <!-- PROJECT 3 -->
+        <!-- FINVIEW -->
         <article class="project-card">
-          <div class="project-top">
-            <div class="project-icon">F</div>
 
-            <span class="project-number">
-              03
+          <div class="project-top">
+            <div class="project-number">03</div>
+
+            <span class="project-status">
+              Open Banking
             </span>
           </div>
 
           <div class="project-content">
-            <span class="project-type">
-              Open Banking
-            </span>
 
             <h3>FinView</h3>
 
-            <p>
-              A financial dashboard concept featuring accounts,
-              transactions, transfers, analytics and user profile
-              management.
+            <p class="project-description">
+              An open banking dashboard concept focused on helping
+              users visualize financial accounts, transactions,
+              transfers and financial insights in one place.
             </p>
 
-            <div class="tech-stack">
+            <div class="project-tags">
+              <span>Vue.js</span>
+              <span>Vite</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <span>↗</span>
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- BANKSCOPE -->
+        <article class="project-card">
+
+          <div class="project-top">
+            <div class="project-number">04</div>
+
+            <span class="project-status">
+              Banking
+            </span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>BankScope</h3>
+
+            <p class="project-description">
+              A banking-focused web application concept built to
+              explore modern financial dashboards and user-friendly
+              banking experiences.
+            </p>
+
+            <div class="project-tags">
+              <span>Vue.js</span>
+              <span>Vite</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <span>↗</span>
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- FARFAD KITCHEN -->
+        <article class="project-card">
+
+          <div class="project-top">
+            <div class="project-number">05</div>
+
+            <span class="project-status">
+              Business
+            </span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Farfad Kitchen</h3>
+
+            <p class="project-description">
+              A responsive restaurant website designed to showcase
+              food menus, special offers, gallery content and make it
+              easier for customers to place orders.
+            </p>
+
+            <div class="project-tags">
               <span>Vue.js</span>
               <span>Vite</span>
               <span>CSS</span>
+              <span>WhatsApp</span>
             </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <span>↗</span>
+              </a>
+            </div>
+
           </div>
 
-          <div class="project-footer">
-            <a href="#" class="project-link">
-              View Project
-              <span>→</span>
-            </a>
-          </div>
         </article>
 
-      </div>
+        <!-- PORTFOLIO -->
+        <article class="project-card">
 
-      <div class="projects-bottom">
-        <p>
-          More projects coming soon.
-        </p>
+          <div class="project-top">
+            <div class="project-number">06</div>
+
+            <span class="project-status">
+              Portfolio
+            </span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Personal Portfolio</h3>
+
+            <p class="project-description">
+              A personal developer portfolio created to showcase my
+              skills, projects, experience and journey as a frontend
+              developer and fintech builder.
+            </p>
+
+            <div class="project-tags">
+              <span>Vue.js</span>
+              <span>TypeScript</span>
+              <span>Vite</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#home" class="project-link">
+                You're Here
+                <span>↗</span>
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
       </div>
 
     </div>
@@ -150,14 +271,16 @@
   margin: 0 auto;
 }
 
-/* HEADING */
+/* =========================
+   SECTION HEADER
+========================= */
 
 .section-heading {
-  max-width: 800px;
-  margin-bottom: 60px;
+  max-width: 850px;
+  margin-bottom: 65px;
 }
 
-.section-heading span {
+.section-heading > span {
   color: #3b82f6;
   font-size: 13px;
   font-weight: 800;
@@ -165,45 +288,84 @@
 }
 
 .section-heading h2 {
-  margin: 15px 0 18px;
+  margin-top: 15px;
 
   color: #ffffff;
+
   font-size: clamp(36px, 5vw, 58px);
   line-height: 1.1;
+
   font-weight: 900;
+  letter-spacing: -1.5px;
+}
+
+.section-heading h2 span {
+  color: #3b82f6;
 }
 
 .section-heading p {
-  max-width: 650px;
+  max-width: 700px;
+  margin-top: 20px;
 
   color: #94a3b8;
+
   font-size: 16px;
   line-height: 1.8;
 }
 
-/* GRID */
+/* =========================
+   PROJECT GRID
+========================= */
 
 .projects-grid {
   display: grid;
+
   grid-template-columns: repeat(2, 1fr);
+
   gap: 22px;
 }
 
-/* CARD */
+/* =========================
+   PROJECT CARD
+========================= */
 
 .project-card {
-  position: relative;
+  min-height: 390px;
 
-  min-height: 440px;
-  padding: 30px;
+  padding: 32px;
 
   display: flex;
   flex-direction: column;
 
   border: 1px solid rgba(255, 255, 255, 0.07);
+
   border-radius: 20px;
 
   background: rgba(255, 255, 255, 0.025);
+
+  position: relative;
+
+  overflow: hidden;
+
+  transition: 0.35s ease;
+}
+
+.project-card::before {
+  content: '';
+
+  position: absolute;
+
+  width: 240px;
+  height: 240px;
+
+  top: -130px;
+  right: -120px;
+
+  border-radius: 50%;
+
+  background: rgba(37, 99, 235, 0.08);
+
+  filter: blur(40px);
 
   transition: 0.35s ease;
 }
@@ -214,198 +376,201 @@
   border-color: rgba(59, 130, 246, 0.4);
 
   box-shadow:
-    0 25px 60px rgba(0, 0, 0, 0.25),
-    0 0 30px rgba(37, 99, 235, 0.05);
+    0 30px 70px rgba(0, 0, 0, 0.25);
 }
 
-.project-card.featured {
-  grid-row: span 2;
+.project-card:hover::before {
+  background: rgba(37, 99, 235, 0.17);
+}
 
-  min-height: 650px;
+/* FEATURED */
+
+.project-card.featured {
+  border-color: rgba(59, 130, 246, 0.25);
 
   background:
     linear-gradient(
       145deg,
-      rgba(37, 99, 235, 0.13),
+      rgba(37, 99, 235, 0.08),
       rgba(255, 255, 255, 0.025)
     );
 }
 
-/* TOP */
+/* =========================
+   TOP
+========================= */
 
 .project-top {
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 }
 
-.project-icon {
-  width: 58px;
-  height: 58px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 15px;
-
-  background: rgba(37, 99, 235, 0.12);
-
+.project-number {
   color: #3b82f6;
 
-  font-size: 24px;
-  font-weight: 900;
-}
+  font-size: 13px;
 
-.project-status,
-.project-number {
-  color: #64748b;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 900;
+
+  letter-spacing: 2px;
 }
 
 .project-status {
   padding: 7px 11px;
 
-  color: #60a5fa;
+  border-radius: 20px;
 
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  border-radius: 30px;
+  color: #93c5fd;
 
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(37, 99, 235, 0.1);
+
+  border: 1px solid rgba(59, 130, 246, 0.15);
+
+  font-size: 11px;
+
+  font-weight: 800;
 }
 
-/* CONTENT */
+/* =========================
+   CONTENT
+========================= */
 
 .project-content {
-  margin-top: 45px;
-}
+  margin-top: 55px;
 
-.project-type {
-  color: #3b82f6;
+  position: relative;
 
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+  z-index: 2;
 }
 
 .project-content h3 {
-  margin: 12px 0 15px;
-
   color: #ffffff;
 
-  font-size: 28px;
+  font-size: 25px;
+
   font-weight: 900;
+
+  line-height: 1.25;
 }
 
-.project-content p {
+.project-description {
+  margin-top: 15px;
+
   color: #94a3b8;
 
-  font-size: 15px;
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
-/* TECHNOLOGIES */
+/* =========================
+   TAGS
+========================= */
 
-.tech-stack {
+.project-tags {
   display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
 
-  margin-top: 25px;
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: 24px;
 }
 
-.tech-stack span {
-  padding: 7px 11px;
+.project-tags span {
+  padding: 7px 10px;
 
-  border-radius: 6px;
+  border-radius: 7px;
 
   color: #cbd5e1;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.04);
+
+  border: 1px solid rgba(255, 255, 255, 0.07);
 
   font-size: 11px;
+
   font-weight: 700;
 }
 
-/* FOOTER */
+/* =========================
+   LINKS
+========================= */
 
-.project-footer {
-  margin-top: auto;
-
-  padding-top: 30px;
+.project-links {
+  margin-top: 28px;
 }
 
 .project-link {
   display: inline-flex;
-  align-items: center;
-  gap: 10px;
 
-  color: #ffffff;
+  align-items: center;
+
+  gap: 8px;
+
+  color: #3b82f6;
 
   text-decoration: none;
 
   font-size: 14px;
+
   font-weight: 800;
 
   transition: 0.3s ease;
 }
 
 .project-link span {
-  color: #3b82f6;
-  font-size: 20px;
+  font-size: 18px;
 
   transition: 0.3s ease;
 }
 
 .project-link:hover {
-  color: #3b82f6;
+  color: #60a5fa;
 }
 
 .project-link:hover span {
-  transform: translateX(5px);
+  transform: translate(4px, -4px);
 }
 
-/* BOTTOM */
-
-.projects-bottom {
-  margin-top: 45px;
-
-  text-align: center;
-}
-
-.projects-bottom p {
-  color: #64748b;
-  font-size: 14px;
-}
-
-/* RESPONSIVE */
+/* =========================
+   TABLET
+========================= */
 
 @media (max-width: 850px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
-
-  .project-card.featured {
-    grid-row: auto;
-    min-height: 440px;
-  }
 }
 
-@media (max-width: 600px) {
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 550px) {
   .projects-section {
     padding: 90px 5%;
   }
 
   .project-card {
-    min-height: 400px;
+    min-height: auto;
+
     padding: 25px;
   }
 
+  .project-content {
+    margin-top: 40px;
+  }
+
   .project-content h3 {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .section-heading h2 {
+    font-size: 38px;
   }
 }
 </style>
