@@ -49,11 +49,16 @@
             </div>
 
             <div class="project-links">
-              <a href="#" class="project-link">
-                View Project
-                <span>↗</span>
-              </a>
-            </div>
+  <a
+    href="https://mufasirpay.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+    Live Project
+    <span>↗</span>
+  </a>
+</div>
 
           </div>
 
@@ -88,11 +93,16 @@
             </div>
 
             <div class="project-links">
-              <a href="#" class="project-link">
-                View Project
-                <span>↗</span>
-              </a>
-            </div>
+  <a
+    href="https://mufasirdev.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+    Live Project
+    <span>↗</span>
+  </a>
+</div>
 
           </div>
 
@@ -127,54 +137,22 @@
             </div>
 
             <div class="project-links">
-              <a href="#" class="project-link">
-                View Project
-                <span>↗</span>
-              </a>
-            </div>
+  <a
+    href="https://finview1.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+    Live Project
+    <span>↗</span>
+  </a>
+</div>
 
           </div>
 
         </article>
 
-        <!-- BANKSCOPE -->
-        <article class="project-card">
-
-          <div class="project-top">
-            <div class="project-number">04</div>
-
-            <span class="project-status">
-              Banking
-            </span>
-          </div>
-
-          <div class="project-content">
-
-            <h3>BankScope</h3>
-
-            <p class="project-description">
-              A banking-focused web application concept built to
-              explore modern financial dashboards and user-friendly
-              banking experiences.
-            </p>
-
-            <div class="project-tags">
-              <span>Vue.js</span>
-              <span>Vite</span>
-              <span>JavaScript</span>
-              <span>CSS</span>
-            </div>
-
-            <div class="project-links">
-              <a href="#" class="project-link">
-                View Project
-                <span>↗</span>
-              </a>
-            </div>
-
-          </div>
-
-        </article>
+        
 
         <!-- FARFAD KITCHEN -->
         <article class="project-card">
@@ -205,58 +183,28 @@
             </div>
 
             <div class="project-links">
-              <a href="#" class="project-link">
-                View Project
-                <span>↗</span>
-              </a>
-            </div>
+  <a
+    href="https://realfarfadkitchen.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+    Live Project
+    <span>↗</span>
+  </a>
+</div>
 
           </div>
 
         </article>
 
-        <!-- PORTFOLIO -->
-        <article class="project-card">
-
-          <div class="project-top">
-            <div class="project-number">06</div>
-
-            <span class="project-status">
-              Portfolio
-            </span>
-          </div>
-
-          <div class="project-content">
-
-            <h3>Personal Portfolio</h3>
-
-            <p class="project-description">
-              A personal developer portfolio created to showcase my
-              skills, projects, experience and journey as a frontend
-              developer and fintech builder.
-            </p>
-
-            <div class="project-tags">
-              <span>Vue.js</span>
-              <span>TypeScript</span>
-              <span>Vite</span>
-              <span>CSS</span>
-            </div>
-
-            <div class="project-links">
-              <a href="#home" class="project-link">
-                You're Here
-                <span>↗</span>
-              </a>
-            </div>
+       
 
           </div>
 
-        </article>
 
       </div>
 
-    </div>
   </section>
 </template>
 

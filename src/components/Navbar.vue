@@ -20,8 +20,9 @@ const closeMenu = () => {
         @click="closeMenu"
       >
         <span>M</span>ufasir
+        <span>D</span>ev
       </a>
-
+     
 
       <!-- DESKTOP NAVIGATION -->
       <div class="nav-links">

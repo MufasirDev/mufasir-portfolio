@@ -25,7 +25,7 @@
 
           <!-- EMAIL -->
           <a
-            href="mailto:mufasirdevmaster@gmail.com"
+            href="mailto:muhsinadebayo366@gmail.com"
             class="contact-card"
           >
             <div class="contact-icon">
@@ -34,7 +34,7 @@
 
             <div>
               <span>Email</span>
-              <h3>mufasirdevmaster@gmail.com</h3>
+              <h3>muhsinadebayo366@gmail.com</h3>
             </div>
 
             <strong>↗</strong>

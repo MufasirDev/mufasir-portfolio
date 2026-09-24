@@ -8,6 +8,7 @@
 
         <a href="#home" class="footer-logo">
           <span>M</span>ufasir
+          <span>D</span>ev
         </a>
 
         <p>
